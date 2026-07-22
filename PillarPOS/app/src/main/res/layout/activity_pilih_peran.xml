@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="24dp"
+        android:src="@android:drawable/ic_menu_gallery"
+        app:tint="@color/primary" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="PILLAR\nPOS"
+        android:textAlignment="center"
+        android:textColor="@color/accent"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:text="Pilih peran untuk melanjutkan"
+        android:textColor="#D7CCC8"
+        android:textSize="16sp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnMasukAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/masuk_sebagai_admin"
+        android:textAllCaps="false"
+        android:textColor="@color/primary"
+        app:backgroundTint="@color/white"
+        app:cornerRadius="8dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnMasukKasir"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="@string/masuk_sebagai_kasir"
+        android:textAllCaps="false"
+        android:textColor="@color/primary"
+        app:backgroundTint="@color/white"
+        app:cornerRadius="8dp" />
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pillar POS</string>
+    <string name="title_pillar_pos">PILLAR\nPOS</string>
+
+    
+    <string name="masuk_sebagai_admin">Masuk sebagai admin</string>
+    <string name="masuk_sebagai_kasir">Masuk sebagai kasir</string>
+
+    
+    <string name="login_admin_title">LOGIN ADMIN</string>
+    <string name="login_kasir_title">LOGIN KASIR</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_masuk">MASUK</string>
+    <string name="btn_ganti_peran">Ganti Peran</string>
+
+    
+    <string name="title_product">Product</string>
+    <string name="hint_search">Search</string>
+    <string name="cat_semua">Semua</string>
+    <string name="cat_makanan">Makanan</string>
+    <string name="cat_minuman">Minuman</string>
+    <string name="label_stok">Stok : %1$d</string>
+    <string name="btn_add">Add</string>
+    <string name="label_total">Total</string>
+    <string name="btn_lanjut">Lanjut</string>
+    <string name="item_count_format">%1$d Item</string>
+
+    
+    <string name="title_pembayaran">Pembayaran</string>
+    <string name="label_total_pembayaran">Total Pembayaran</string>
+    <string name="label_pilih_metode">Pilih Metode Pembayaran</string>
+    <string name="metode_tunai">Tunai</string>
+    <string name="metode_qris">QRIS</string>
+    <string name="metode_debit">Kartu Debit</string>
+    <string name="btn_konfirmasi_pembayaran">KONFIRMASI PEMBAYARAN</string>
+    <string name="info_pembayaran">Pastikan Nominal Yang diterima sesuai dengan total pembayaran</string>
+
+    
+    <string name="msg_field_kosong">Username dan password wajib diisi</string>
+    <string name="msg_login_salah">Username atau password salah</string>
+    <string name="msg_login_berhasil">Login berhasil, selamat datang</string>
+    <string name="msg_tidak_ada_koneksi">Tidak dapat terhubung ke server, periksa koneksi internet Anda</string>
+</resources>

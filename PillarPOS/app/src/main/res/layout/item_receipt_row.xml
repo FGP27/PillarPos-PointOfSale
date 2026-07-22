@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingVertical="4dp">
+
+    <TextView
+        android:id="@+id/tvItemName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.4"
+        android:textColor="@color/text_primary"
+        android:textSize="13sp"
+        tools:text="1. Espresso" />
+
+    <TextView
+        android:id="@+id/tvItemQty"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.6"
+        android:textColor="@color/text_secondary"
+        android:textSize="13sp"
+        tools:text="x2" />
+
+    <TextView
+        android:id="@+id/tvItemSubtotal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="end"
+        android:textColor="@color/text_primary"
+        android:textSize="13sp"
+        tools:text="Rp 40.000" />
+
+</LinearLayout>
