@@ -26,8 +26,8 @@ PillarPos-PointOfSale/
 <p align="center">
   <img src="screenshots/login.jpg" width="200"/>
   <img src="screenshots/point_of_sale.jpg" width="200"/>
-  <img src="screenshots/dashboard.jpg" width="200"/>
   <img src="screenshots/riwayat_transaksi.jpg" width="200"/>
+  <img src="screenshots/dashboard.jpg" width="200"/>
 </p>
 
 <p align="center">
